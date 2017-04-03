@@ -21,6 +21,7 @@ package farstar.weapons.exceptions;
  * Exception thrown by a combat ship when a client tries to load more weapons
  * than the ship accepts.
  */
+@SuppressWarnings("serial")
 public class MaxWeaponException extends WeaponException {
 
 }

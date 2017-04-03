@@ -21,6 +21,7 @@ package farstar.weapons.exceptions;
  * Exception thrown by a combat ship when a client tries to equip a weapon that
  * does not fit the ship.
  */
+@SuppressWarnings("serial")
 abstract public class WeaponException extends Exception {
 
 }

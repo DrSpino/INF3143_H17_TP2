@@ -21,6 +21,7 @@ package farstar.weapons.exceptions;
  * Exception thrown by a combat ship when client tries to equip a kind of weapon
  * that is not supported by the ship.
  */
+@SuppressWarnings("serial")
 public class IllegalWeaponException extends WeaponException {
 
 }

@@ -21,6 +21,7 @@ package farstar.freight.exceptions;
  * Exception thrown by a transport ship when a client try to load an
  * item that exceeds the ship max mass.
  */
+@SuppressWarnings("serial")
 public class MassException extends FreightException {
 
 }
